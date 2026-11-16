@@ -1,5 +1,0 @@
-*.class
-*.tmp
-*.log
-target/
-.env
