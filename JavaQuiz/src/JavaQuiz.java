@@ -46,6 +46,39 @@ if (respuesta.equalsIgnoreCase("B")) {
 } else {
     System.out.println("Incorrecto.");
 }
+// PREGUNTA 3
+System.out.println("Pregunta 3. ¿Qué operador se utiliza para comparar si dos valores son iguales?");
+System.out.println("A) =");
+System.out.println("B) !=");
+System.out.println("C) ==");
+System.out.print("Respuesta: ");
+
+respuesta = teclado.nextLine();
+
+if (respuesta.equalsIgnoreCase("C")) {
+System.out.println("¡Correcto!");
+aciertos++;
+} else {
+System.out.println("Incorrecto.");
+}
+
+
+// PREGUNTA 4
+System.out.println("Pregunta 4. ¿Cuál es el primer índice de un array en Java?");
+System.out.println("A) 1");
+System.out.println("B) -1");
+System.out.println("C) 0");
+System.out.print("Respuesta: ");
+
+respuesta = teclado.nextLine();
+
+if (respuesta.equalsIgnoreCase("C")) {
+System.out.println("¡Correcto!");
+aciertos++;
+} else {
+System.out.println("Incorrecto.");
+}
+
 // --- RESULTADO FINAL ---
 
 System.out.println("========== RESULTADO ==========");
