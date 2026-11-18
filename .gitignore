@@ -1,0 +1,20 @@
+# Archivos compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+bin/
+out/
+target/
+
+# Logs y errores de la máquina virtual de Java
+*.log
+hs_err_pid*
+
+# Configuración local de Visual Studio Code
+.vscode/
+
+# Archivos temporales del sistema operativo (Linux / macOS / Windows)
+*~
+.DS_Store
+Thumbs.db
