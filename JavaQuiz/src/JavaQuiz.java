@@ -30,6 +30,22 @@ aciertos++;
 } else {
 System.out.println("Incorrecto.");
 }
+
+// PREGUNTA 2
+System.out.println("Pregunta 2. ¿Qué palabra se utiliza para mostrar texto por pantalla?");
+System.out.println("A) Scanner");
+System.out.println("B) System.out.println");
+System.out.println("C) int");
+System.out.print("Respuesta: ");
+
+respuesta = teclado.nextLine();
+
+if (respuesta.equalsIgnoreCase("B")) {
+    System.out.println("¡Correcto!");
+    aciertos++;
+} else {
+    System.out.println("Incorrecto.");
+}
 // --- RESULTADO FINAL ---
 
 System.out.println("========== RESULTADO ==========");
