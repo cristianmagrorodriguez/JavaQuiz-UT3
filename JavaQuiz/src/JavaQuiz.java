@@ -10,10 +10,7 @@ int aciertos = 0;
 System.out.println("========== JAVAQUIZ ==========");
 System.out.println("Concurso de preguntas sobre Java");
 System.out.println("Responde escribiendo A, B o C.");
-
-// --- RONDA 1 - INTEGRANTE A ---
-
-System.out.println("--- RONDA 1 ---");
+    System.out.println("--- RONDA 1 ---");
 
 // PREGUNTA 1
 System.out.println("Pregunta 1. ¿Qué tipo de dato almacena números enteros?");
@@ -78,6 +75,40 @@ aciertos++;
 } else {
 System.out.println("Incorrecto.");
 }
+
+// PREGUNTA 5
+System.out.println("Pregunta 5. ¿Qué estructura se utiliza para tomar decisiones?");
+System.out.println("A) if");
+System.out.println("B) import");
+System.out.println("C) Scanner");
+System.out.print("Respuesta: ");
+
+respuesta = teclado.nextLine();
+
+if (respuesta.equalsIgnoreCase("A")) {
+    System.out.println("¡Correcto!");
+    aciertos++;
+} else {
+    System.out.println("Incorrecto.");
+}
+
+// PREGUNTA 6
+System.out.println("Pregunta 6. ¿Qué bucle repite instrucciones mientras se cumpla una condición?");
+System.out.println("A) if");
+System.out.println("B) while");
+System.out.println("C) class");
+System.out.print("Respuesta: ");
+
+respuesta = teclado.nextLine();
+
+if (respuesta.equalsIgnoreCase("B")) {
+    System.out.println("¡Correcto!");
+    aciertos++;
+} else {
+    System.out.println("Incorrecto.");
+}
+
+
 
 // --- RESULTADO FINAL ---
 
